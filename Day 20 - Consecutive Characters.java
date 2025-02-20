@@ -12,6 +12,6 @@ class Solution {
             }
             max=Math.max(max,curr);
         }
-        return max;
+        return max;//comment
     }
 }
