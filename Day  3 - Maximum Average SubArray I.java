@@ -15,6 +15,6 @@ class Solution {
             avg=sum/k;
             max=Math.max(max, avg);
         }
-        return max;    
+        return max;   //commgft 
     }
 }
