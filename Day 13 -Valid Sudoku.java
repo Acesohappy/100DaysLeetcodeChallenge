@@ -5,6 +5,7 @@ class Solution {
         int rowf[]=new int[size];
         int colf[]=new int[size];
         int submatf[]=new int[size];
+        
         for(int row=0;row<r;row++)
         {
             for(int col=0;col<c;col++){
