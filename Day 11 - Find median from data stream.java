@@ -7,7 +7,7 @@ class MedianFinder {
     }
     public void addNum(int num) {
         if(minHeap.size()==maxHeap.size()){
-            minHeap.add(num);
+            minHeap.add(num);//comment 
             maxHeap.add(minHeap.poll());
         }
         else{
