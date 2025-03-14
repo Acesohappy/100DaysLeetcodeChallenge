@@ -8,7 +8,7 @@ class Solution {
         for (int r = 0; r < n; r++) {
             char curr = s.charAt(r);
             map.put(curr, map.getOrDefault(curr, 0)+1);
-            while (map.get(curr) > 1) {
+            while (map.get(curr) > 1) {//comment
                 char lChar = s.charAt(l);
                 map.put(lChar, map.get(lChar) - 1);
                 l++;
