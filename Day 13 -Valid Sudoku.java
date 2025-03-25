@@ -10,7 +10,7 @@ class Solution {
         {
             for(int col=0;col<c;col++){
                 if(board[row][col]!='.'){
-                int dig=board[row][col]-'0';
+                int dig=board[row][col]-'0';//comment 
                 int subidx=smsize*(row/smsize)+col/smsize;
                 if((rowf[row]&(1<<dig))!=0 || (colf[col]&(1<<dig))!=0 || (submatf[subidx]&(1<<dig))!=0){
                     return false;
