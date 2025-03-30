@@ -3,7 +3,7 @@ class Solution {
     
     private int dfs(int row, int col, int[][] grid, int i, int j) {
         if (i < 0 || i >= row || j < 0 || j >= col || grid[i][j] == 0) {
-            return 1;
+            return 1;//comment
         }
         if (grid[i][j] == -1) {
             return 0;
