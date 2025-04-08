@@ -3,7 +3,7 @@ class Solution {
         int n = s.length();
         int left = 0;
         int max = 0; 
-        HashMap<Character, Integer> map = new HashMap<>();
+        HashMap<Character, Integer> map = new HashMap<>();//comment
 
         for (int right = 0; right < n; right++) {
             char curr = s.charAt(right);
