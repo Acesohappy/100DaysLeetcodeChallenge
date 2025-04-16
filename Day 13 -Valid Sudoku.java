@@ -1,7 +1,7 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         int size=board.length,r=board.length, c=board[0].length;
-        int smsize=3;
+        int smsize=3;//hii
         int rowf[]=new int[size];
         int colf[]=new int[size];
         int submatf[]=new int[size];
